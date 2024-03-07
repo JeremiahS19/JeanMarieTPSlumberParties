@@ -13,7 +13,11 @@ font-size: 50px;
 }
 h4{
   font-size: 20px;
-  text-align: justify;
+  text-align: center;
+}
+h3{
+  font-size: 35px;
+  text-align: center;
 }
 
 nav {
@@ -153,7 +157,8 @@ border-radius: 3%;
 }
 
 table{
-  border: 1px solid #3399CC; 
+  border: 1px solid #3399CC;
+  margin-top: ; 
 }
 td,th,tr{
   padding: 17px;
@@ -167,4 +172,22 @@ tr:nth-child(even) {
 }
 td{
   text-align: left;
+}
+form{
+  display: flex;
+  flex-flow: column nowrap;
+}
+input,textarea{
+  margin-bottom: .5em;
+}
+input{
+  padding: .5em;
+  font-size: 20px;
+}
+
+form{
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 100px;
+  grid-template-columns: 7em 1fr;
+  grid-gap: 1em;
 }
