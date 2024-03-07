@@ -190,3 +190,6 @@ form{
   grid-template-columns: 7em 1fr;
   grid-gap: 1em;
 }
+caption{
+  text-align: center;
+}
