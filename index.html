@@ -15,11 +15,38 @@
   <a href="Terms&Conditions.html">Term's & Conditions</a>
   </ul>
 </nav>
-<img class="mySlides" src="Images/IMG_2036.jpeg" width="50%" height="150">
-<img class="mySlides" src="Images/IMG_2041.jpeg" width="50%" height="150">
-<img class="mySlides" src="Images/IMG_2042.jpeg" width="50%" height="150">
-<img class="mySlides" src="Images/IMG_2043.jpeg" width="50%" height="150">
-<img class="mySlides" src="Images/IMG_2044.jpeg" width="50%" height="150">
-<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+   <img src="Images/IMG_2036.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Images/IMG_2041.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Images/IMG_2042.jpeg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="Images/IMG_2043.jpeg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="Images/IMG_2044.jpeg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
 </body>
